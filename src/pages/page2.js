@@ -13,7 +13,7 @@ export default function Page2() {
         <br/>
         How do you behave on your walk?
       </h2>
-      <img src={walk} style={{ width: '30%', height: 'auto' }}/>
+      <img src={walk} className={"image-container"}/>
       <div className={"button-container"}>
         <button onClick={() => {
             handleNext();

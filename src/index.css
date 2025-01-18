@@ -39,3 +39,7 @@ button {
   gap: 10px;
   width: 100%;
 }
+
+.image-container {
+  width: 40%;
+}

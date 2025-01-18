@@ -1,4 +1,5 @@
 import React from "react";
+import lost from './images/page10.png';
 import "../index.css";
 import updateBreed from "../breeds";
 
@@ -14,6 +15,7 @@ export default function Page10() {
             <br/>
             How do you respond?
         </h2>
+        <img src={lost} className={"image-container"}/>
         <div className={"button-container"}>
             <button onClick={() => {
                 handleNext();
