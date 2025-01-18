@@ -13,7 +13,20 @@ export default function Page14() {
         <br />
         What's your reaction?
       </h2>
-      <button onClick={handleNext}>Next</button>
+      <div className={"button-container"}>
+        <button onClick={handleNext}>
+          Wait patiently until they say it’s okay to eat.
+        </button>
+        <button onClick={handleNext}>
+          Dive right in—you’ve been waiting for this!
+        </button>
+        <button onClick={handleNext}>
+          Sniff it carefully before starting.
+        </button>
+        <button onClick={handleNext}>
+          Share a piece with another dog or human first.
+        </button>
+      </div>
     </div>
   );
 }

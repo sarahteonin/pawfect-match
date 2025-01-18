@@ -13,7 +13,20 @@ export default function Page13() {
         <br />
         How do you react?
       </h2>
-      <button onClick={handleNext}>Next</button>
+      <div className={"button-container"}>
+        <button onClick={handleNext}>
+          Wag your tail and nuzzle them affectionately.
+        </button>
+        <button onClick={handleNext}>
+          Jump up excitedly and bark happily.
+        </button>
+        <button onClick={handleNext}>
+          Sit calmly and let them check if you’re okay.
+        </button>
+        <button onClick={handleNext}>
+          Bring them a token from your adventure as a gift.
+        </button>
+      </div>
     </div>
   );
 }

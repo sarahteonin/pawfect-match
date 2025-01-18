@@ -13,7 +13,20 @@ export default function Page12() {
         <br />
         What do you feel?
       </h2>
-      <button onClick={handleNext}>Next</button>
+      <div className={"button-container"}>
+        <button onClick={handleNext}>
+          Relief—you’ve missed your cozy spot.
+        </button>
+        <button onClick={handleNext}>
+          Excitement—time to tell your human about your journey!
+        </button>
+        <button onClick={handleNext}>
+          A sense of accomplishment from your exploration.
+        </button>
+        <button onClick={handleNext}>
+          Gratitude for your group’s teamwork.
+        </button>
+      </div>
     </div>
   );
 }

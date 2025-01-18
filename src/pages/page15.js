@@ -13,7 +13,20 @@ export default function Page15() {
         <br />
         What do you dream about?
       </h2>
-      <button onClick={handleNext}>Next</button>
+      <div className={"button-container"}>
+        <button onClick={handleNext}>
+          A sunny field where you can relax peacefully.
+        </button>
+        <button onClick={handleNext}>
+          Running through forests and chasing squirrels.
+        </button>
+        <button onClick={handleNext}>
+          Exploring new places with your human by your side.
+        </button>
+        <button onClick={handleNext}>
+          Protecting your home and family from any danger.
+        </button>
+      </div>
     </div>
   );
 }
