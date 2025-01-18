@@ -17,6 +17,7 @@ import Page12 from "./pages/page12";
 import Page13 from "./pages/page13";
 import Page14 from "./pages/page14";
 import Page15 from "./pages/page15";
+import Resultpage from "./pages/resultpage";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
         <Route path="/13" element={<Page13 />} />
         <Route path="/14" element={<Page14 />} />
         <Route path="/15" element={<Page15 />} />
+        <Route path="/result" element={<Resultpage />} />
       </Routes>
     </Router>
   );
