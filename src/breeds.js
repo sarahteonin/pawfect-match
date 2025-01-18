@@ -1,37 +1,66 @@
-import React, { useState } from "react";
-
-const breeds = {
-    "collie": 0,
+const getBreeds = () => {
+  const savedBreeds = localStorage.getItem("dogBreeds");
+  if (savedBreeds) {
+    return JSON.parse(savedBreeds);
+  }
+  return {
+    collie: 0,
     "german shepherd": 0,
-    "beagle": 0,
-    "dachshund": 0,
+    beagle: 0,
+    dachshund: 0,
     "cocker spaniel": 0,
     "golden retriever": 0,
-    "bulldog": 0,
-    "poodle": 0,
-    "pomeranian": 0,
-    "doberman": 0
-}
+    bulldog: 0,
+    poodle: 0,
+    pomeranian: 0,
+    doberman: 0,
+  };
+};
 
 export default function updateBreed(breedsToUpdate) {
-    breedsToUpdate.forEach(element => {
-        breeds[element]++;
-    });
+  const currentBreeds = getBreeds();
 
-    console.log("done");
-    console.log(breeds);
+  breedsToUpdate.forEach((element) => {
+    currentBreeds[element]++;
+  });
+
+  localStorage.setItem("dogBreeds", JSON.stringify(currentBreeds));
+  console.log("done");
+  console.log(currentBreeds);
 }
 
 export function calculateBreed() {
-    let max = 0;
-    let maxBreed = "";
-    for (let breed in breeds) {
-        if (breeds[breed] > max) {
-            max = breeds[breed];
-            maxBreed = breed;
-        }
-    }
+  const breeds = getBreeds();
+  let maxCount = 0;
+  let topBreed = "";
 
-    console.log(maxBreed);
-    return maxBreed;
+  for (const [breed, count] of Object.entries(breeds)) {
+    if (count > maxCount) {
+      maxCount = count;
+      topBreed = breed;
+    }
+  }
+
+  // If no breeds have been counted yet, maxCount will still be 0
+  if (maxCount === 0) {
+    return "No breeds tracked yet";
+  }
+
+  return topBreed;
+}
+
+export function resetBreeds() {
+  const defaultBreeds = {
+    collie: 0,
+    "german shepherd": 0,
+    beagle: 0,
+    dachshund: 0,
+    "cocker spaniel": 0,
+    "golden retriever": 0,
+    bulldog: 0,
+    poodle: 0,
+    pomeranian: 0,
+    doberman: 0,
+  };
+  localStorage.setItem("dogBreeds", JSON.stringify(defaultBreeds));
 }
