@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function Page1() {
+export default function Homepage() {
     return (
         <div>
-            <h1>A New Day Begins</h1>
+            <h1>Homepage</h1>
         </div>
     );
 }
