@@ -1,4 +1,5 @@
 import React from "react";
+import cave from './images/page11.png';
 import "../index.css";
 import updateBreed from "../breeds";
 
@@ -14,6 +15,7 @@ export default function Page11() {
         <br />
         What's your next move?
       </h2>
+      <img src={cave} className={"image-container"}/>
       <div className={"button-container"}>
         <button onClick={() => {
             handleNext();

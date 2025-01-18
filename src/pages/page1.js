@@ -14,7 +14,7 @@ export default function Page1() {
                 <br/>
                 What’s your first move?
             </h2>
-            <img src={birdsChirping} style={{ width: '30%', height: 'auto' }}/>
+            <img src={birdsChirping} className={"image-container"}/>
             <div className={"button-container"}>
                 <button onClick={() => {
                     handleNext();

@@ -1,4 +1,5 @@
 import React from 'react';
+import park from './images/page4.png';
 import updateBreed from '../breeds';
 
 export default function Page4() {
@@ -12,6 +13,7 @@ export default function Page4() {
                 <br/>
                 What’s your reaction?
             </h2>
+            <img src={park} className={"image-container"}/>
             <div className={"button-container"}>
                 <button onClick={() => {
                     handleNext();

@@ -45,3 +45,7 @@ button {
 body {
   font-size: 2.5vmin; /* Scales with viewport */
 }
+
+.image-container {
+  width: 40%;
+}

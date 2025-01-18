@@ -1,4 +1,5 @@
 import React from 'react';
+import forest from './images/page6.png';
 import "../index.css";
 import updateBreed from '../breeds';
 
@@ -15,6 +16,7 @@ export default function Page6() {
                 <br/>
                 What do you focus on?
             </h2>
+            <img src={forest} className={"image-container"}/>
             <div className={"button-container"}>
                 <button onClick={() => {
                     handleNext();

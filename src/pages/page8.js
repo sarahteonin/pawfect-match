@@ -1,4 +1,5 @@
 import React from 'react';
+import stream from './images/page8.png';
 import "../index.css";
 import updateBreed from '../breeds';
 
@@ -14,6 +15,7 @@ export default function Page8() {
                 <br/>
                 What’s your plan?
             </h2>
+            <img src={stream} className={"image-container"}/>
             <div className={"button-container"}>
             <button onClick={() => {
                     handleNext();
