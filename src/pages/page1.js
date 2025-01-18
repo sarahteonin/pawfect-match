@@ -3,6 +3,7 @@ import birdsChirping from "./images/page1.png";
 import updateBreed from "../breeds";
 
 export default function Page1() {
+    
     const handleNext = () => {
         window.location.href = "/2";
     };
@@ -17,7 +18,7 @@ export default function Page1() {
             <div className={"button-container"}>
                 <button onClick={() => {
                     handleNext();
-                    updateBreed(["bulldog", "cocker spaniel"]);
+                    updateBreed(["bulldog", "cocker_spaniel"]);
                 }}>
                     Stretch out and roll around lazily in your cozy bed.
                 </button>
@@ -29,13 +30,13 @@ export default function Page1() {
                 </button>
                 <button onClick={() => {
                     handleNext();
-                    updateBreed(["dachshund", "golden retriever"]);
+                    updateBreed(["dachshund", "golden_retriever"]);
                 }}>
                     Run straight to the food bowl—breakfast time!
                 </button>
                 <button onClick={() => {
                     handleNext();
-                    updateBreed(["german shepherd", "collie"]);
+                    updateBreed(["german_shepherd", "collie"]);
                 }}>
                     Sit and wait for your human to wake up, ready to assist them.
                 </button>

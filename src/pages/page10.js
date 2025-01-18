@@ -17,13 +17,13 @@ export default function Page10() {
         <div className={"button-container"}>
             <button onClick={() => {
                 handleNext();
-                updateBreed( ["collie", "german shepherd"]);
+                updateBreed( ["collie", "german_shepherd"]);
             }}>
               Stay calm and try to retrace your steps.
             </button>
             <button onClick={() => {
                 handleNext();
-                updateBreed( ["golden retriever", "collie"]);
+                updateBreed( ["golden_retriever", "collie"]);
             }}>
               Bark loudly to call for help.
             </button>

@@ -15,13 +15,13 @@ export default function Page4() {
             <div className={"button-container"}>
                 <button onClick={() => {
                     handleNext();
-                    updateBreed( ["collie", "german shephard"]);
+                    updateBreed( ["collie", "german_shephard"]);
                 }}>
                     Greet them politely but stick to your human.
                 </button>
                 <button onClick={() => {
                     handleNext();
-                    updateBreed( ["golden retriever", "pomeranian"]);
+                    updateBreed( ["golden_retriever", "pomeranian"]);
                 }}>
                     Run over excitedly and start playing immediately.
                 </button>

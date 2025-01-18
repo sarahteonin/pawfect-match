@@ -29,7 +29,7 @@ export default function Page9() {
           </button>
           <button onClick={() => {
               handleNext();
-              updateBreed( ["cocker spaniel", "collie"]);
+              updateBreed( ["cocker_spaniel", "collie"]);
           }}>
             Ignore it and move on.
           </button>

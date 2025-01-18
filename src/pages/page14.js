@@ -17,19 +17,19 @@ export default function Page14() {
       <div className={"button-container"}>
         <button onClick={() => {
             handleNext();
-            updateBreed( ["german shephard", "bulldog"]);
+            updateBreed( ["german_shephard", "bulldog"]);
         }}>
           Wait patiently until they say it’s okay to eat.
         </button>
         <button onClick={() => {
             handleNext();
-            updateBreed( ["golden retriever", "pomeranian"]);
+            updateBreed( ["golden_retriever", "pomeranian"]);
         }}>
           Dive right in—you’ve been waiting for this!
         </button>
         <button onClick={() => {
             handleNext();
-            updateBreed( ["dachshund", "cocker spaniel"]);
+            updateBreed( ["dachshund", "cocker_spaniel"]);
         }}>
           Sniff it carefully before starting.
         </button>

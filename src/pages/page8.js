@@ -17,13 +17,13 @@ export default function Page8() {
             <div className={"button-container"}>
             <button onClick={() => {
                     handleNext();
-                    updateBreed( ["golden retriever", "poodle"]);
+                    updateBreed( ["golden_retriever", "poodle"]);
                 }}>
                     Jump right in—you love water!
                 </button>
                 <button onClick={() => {
                     handleNext();
-                    updateBreed( ["dachund", "cocker spaniel"]);
+                    updateBreed( ["dachund", "cocker_spaniel"]);
                 }}>
                     Find a way around to avoid getting wet.
                 </button>
@@ -35,7 +35,7 @@ export default function Page8() {
                 </button>
                 <button onClick={() => {
                     handleNext();
-                    updateBreed( ["doberman", "german shephard"]);
+                    updateBreed( ["doberman", "german_shephard"]);
                 }}>
                     Help other dogs cross first before attempting yourself.
                 </button>

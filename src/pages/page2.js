@@ -17,7 +17,7 @@ export default function Page2() {
       <div className={"button-container"}>
         <button onClick={() => {
             handleNext();
-            updateBreed( ["cocker spaniel", "collie"]);
+            updateBreed( ["cocker_spaniel", "collie"]);
         }}>
           Stick close and walk calmly by their side.
         </button>
@@ -35,7 +35,7 @@ export default function Page2() {
         </button>
         <button onClick={() => {
             handleNext();
-            updateBreed( ["german shepherd", "bulldog"]);
+            updateBreed( ["german_shepherd", "bulldog"]);
         }}>
           Keep an eye on everyone, ensuring the group stays together.
         </button>

@@ -17,7 +17,7 @@ export default function Page15() {
       <div className={"button-container"}>
         <button onClick={() => {
             handleNext();
-            updateBreed( ["bulldog", "cocker spaniel"]);
+            updateBreed( ["bulldog", "cocker_spaniel"]);
         }}>
           A sunny field where you can relax peacefully.
         </button>
@@ -29,13 +29,13 @@ export default function Page15() {
         </button>
         <button onClick={() => {
             handleNext();
-            updateBreed( ["golden retriever", "poodle"]);
+            updateBreed( ["golden_retriever", "poodle"]);
         }}>
           Exploring new places with your human by your side.
         </button>
         <button onClick={() => {
             handleNext();
-            updateBreed( ["doberman", "german shephard"]);
+            updateBreed( ["doberman", "german_shephard"]);
         }}>
           Protecting your home and family from any danger.
         </button>

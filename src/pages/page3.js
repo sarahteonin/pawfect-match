@@ -17,7 +17,7 @@ export default function Page3() {
             <div className={"button-container"}>
                 <button onClick={() => {
                     handleNext();
-                    updateBreed( ["bulldog", "golden retriever"]);
+                    updateBreed( ["bulldog", "golden_retriever"]);
                 }}>
                     Lounge in the sun and take a nap.
                 </button>
@@ -29,7 +29,7 @@ export default function Page3() {
                 </button>
                 <button onClick={() => {
                     handleNext();
-                    updateBreed( ["cocker spaniel", "dachshund"]);
+                    updateBreed( ["cocker_spaniel", "dachshund"]);
                 }}>
                     Sit by the window and watch the world go by.
                 </button>

@@ -23,7 +23,7 @@ export default function Page12() {
         </button>
         <button onClick={() => {
             handleNext();
-            updateBreed( ["pomeranian", "golden retriever"]);
+            updateBreed( ["pomeranian", "golden_retriever"]);
         }}>
           Excitement—time to tell your human about your journey!
         </button>
