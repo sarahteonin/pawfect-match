@@ -1,4 +1,5 @@
 import React from "react";
+import can from './images/page9.png';
 import "../index.css";
 import updateBreed from "../breeds";
 
@@ -14,6 +15,7 @@ export default function Page9() {
             <br/>
             What do you do?
         </h2>
+        <img src={can} className={"image-container"}/>
         <div className={"button-container"}>
           <button onClick={() => {
             handleNext();

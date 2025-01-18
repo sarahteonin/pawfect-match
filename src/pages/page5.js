@@ -1,6 +1,6 @@
 import React from 'react';
+import gate from './images/page5.png';
 import updateBreed from '../breeds';
-
 
 export default function Page5() {
     const handleNext = () => {
@@ -13,6 +13,7 @@ export default function Page5() {
                 <br/>
                 What do you do?
             </h2>
+            <img src={gate} className={"image-container"}/>
             <div className={"button-container"}>
                 <button onClick={() => {
                     handleNext();

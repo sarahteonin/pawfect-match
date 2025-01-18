@@ -13,7 +13,7 @@ export default function Page3() {
                 <br/>
                 What’s your pick?
             </h2>
-            <img src={questionMark} style={{ width: '30%', height: 'auto' }}/>
+            <img src={questionMark} className={"image-container"}/>
             <div className={"button-container"}>
                 <button onClick={() => {
                     handleNext();

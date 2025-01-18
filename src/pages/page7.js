@@ -1,4 +1,5 @@
 import React from 'react';
+import treats from './images/page7.png';
 import "../index.css";
 import updateBreed from '../breeds';
 
@@ -15,6 +16,7 @@ export default function Page7() {
                 <br/>
                 What do you do?
             </h2>
+            <img src={treats} className={"image-container"}/>
             <div className={"button-container"}>
             <button onClick={() => {
                     handleNext();
