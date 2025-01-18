@@ -5,11 +5,11 @@ const getBreeds = () => {
   }
   return {
     collie: 0,
-    "german shepherd": 0,
+    german_shepherd: 0,
     beagle: 0,
     dachshund: 0,
-    "cocker spaniel": 0,
-    "golden retriever": 0,
+    cocker_spaniel: 0,
+    golden_retriever: 0,
     bulldog: 0,
     poodle: 0,
     pomeranian: 0,
@@ -52,11 +52,11 @@ export function calculateBreed() {
 export function resetBreeds() {
   const defaultBreeds = {
     collie: 0,
-    "german shepherd": 0,
+    german_shepherd: 0,
     beagle: 0,
     dachshund: 0,
-    "cocker spaniel": 0,
-    "golden retriever": 0,
+    cocker_spaniel: 0,
+    golden_retriever: 0,
     bulldog: 0,
     poodle: 0,
     pomeranian: 0,

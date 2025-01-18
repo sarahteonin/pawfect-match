@@ -34,7 +34,7 @@ export default function Page5() {
                 </button>
                 <button onClick={() => {
                     handleNext();
-                    updateBreed( ["german shephard", "golden retriever"]);
+                    updateBreed( ["german_shephard", "golden_retriever"]);
                 }}>
                     Alert your human about the open gate first.
                 </button>

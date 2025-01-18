@@ -18,7 +18,7 @@ export default function Page6() {
             <div className={"button-container"}>
                 <button onClick={() => {
                     handleNext();
-                    updateBreed( ["cocker spaniel", "golden retriever"]);
+                    updateBreed( ["cocker_spaniel", "golden_retriever"]);
                 }}>
                     Follow the sound of running water—it seems peaceful.
                 </button>
@@ -36,7 +36,7 @@ export default function Page6() {
                 </button>
                 <button onClick={() => {
                     handleNext();
-                    updateBreed( ["doberman", "german shephard"]);
+                    updateBreed( ["doberman", "german_shephard"]);
                 }}>
                     Look for signs of other animals or humans nearby.
                 </button>
