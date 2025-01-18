@@ -3,12 +3,14 @@
 body {
   margin: 0;
   padding-top: 40px;
+  padding-bottom: 40px;
   background-color: #8aa5cb;
   justify-items: center;
   text-align: center;
   font-family: "Nunito";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
@@ -21,11 +23,11 @@ button {
   font-family: "Nunito";
   color: black;
   font-weight: bold;
-  padding: 15px 60px;
+  padding:  1.5vw 4vw;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 2vw;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 16px;
@@ -38,4 +40,8 @@ button {
   justify-content: center;
   gap: 10px;
   width: 100%;
+}
+
+body {
+  font-size: 2.5vmin; /* Scales with viewport */
 }
