@@ -13,7 +13,18 @@ export default function Page11() {
         <br />
         What's your next move?
       </h2>
-      <button onClick={handleNext}>Next</button>
+      <div className={"button-container"}>
+        <button onClick={handleNext}>Enter boldly to investigate.</button>
+        <button onClick={handleNext}>
+          Stay outside and bark to warn others.
+        </button>
+        <button onClick={handleNext}>
+          Approach cautiously, sniffing for clues.
+        </button>
+        <button onClick={handleNext}>
+          Keep your distance and observe from afar.
+        </button>
+      </div>
     </div>
   );
 }
