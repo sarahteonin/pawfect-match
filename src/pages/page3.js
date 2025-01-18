@@ -15,7 +15,7 @@ export default function Page3() {
                 <button onClick={handleNext}>Lounge in the sun and take a nap.</button>
                 <button onClick={handleNext}>Chase a ball or play tug-of-war—so much energy!</button>
                 <button onClick={handleNext}>Sit by the window and watch the world go by.</button>
-                <button onClick={handleNext}> Learn a new trick or solve a puzzle toy.</button>
+                <button onClick={handleNext}>Learn a new trick or solve a puzzle toy.</button>
             </div>
         </div>
     );
