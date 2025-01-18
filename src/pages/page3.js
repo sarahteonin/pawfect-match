@@ -1,4 +1,6 @@
 import React from 'react';
+import questionMark from "./images/page3.png";
+import updateBreed from '../breeds';
 
 export default function Page3() {
     const handleNext = () => {
@@ -11,11 +13,32 @@ export default function Page3() {
                 <br/>
                 What’s your pick?
             </h2>
+            <img src={questionMark} style={{ width: '30%', height: 'auto' }}/>
             <div className={"button-container"}>
-                <button onClick={handleNext}>Lounge in the sun and take a nap.</button>
-                <button onClick={handleNext}>Chase a ball or play tug-of-war—so much energy!</button>
-                <button onClick={handleNext}>Sit by the window and watch the world go by.</button>
-                <button onClick={handleNext}>Learn a new trick or solve a puzzle toy.</button>
+                <button onClick={() => {
+                    handleNext();
+                    updateBreed( ["bulldog", "golden retriever"]);
+                }}>
+                    Lounge in the sun and take a nap.
+                </button>
+                <button onClick={() => {
+                    handleNext();
+                    updateBreed( ["pomeranian", "beagle"]);
+                }}>
+                    Chase a ball or play tug-of-war—so much energy!
+                </button>
+                <button onClick={() => {
+                    handleNext();
+                    updateBreed( ["cocker spaniel", "dachshund"]);
+                }}>
+                    Sit by the window and watch the world go by.
+                </button>
+                <button onClick={() => {
+                    handleNext();
+                    updateBreed( ["doberman", "poodle"]);
+                }}>
+                    Learn a new trick or solve a puzzle toy.
+                </button>
             </div>
         </div>
     );

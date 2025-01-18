@@ -1,5 +1,6 @@
 import React from 'react';
 import "../index.css";
+import updateBreed from '../breeds';
 
 export default function Page8() {
     const handleNext = () => {
@@ -14,10 +15,30 @@ export default function Page8() {
                 What’s your plan?
             </h2>
             <div className={"button-container"}>
-                <button onClick={handleNext}>Jump right in—you love water!</button>
-                <button onClick={handleNext}>Find a way around to avoid getting wet.</button>
-                <button onClick={handleNext}>Wait and see if there's a safer way across.</button>
-                <button onClick={handleNext}>Help other dogs cross first before attempting yourself.</button>
+            <button onClick={() => {
+                    handleNext();
+                    updateBreed( ["golden retriever", "poodle"]);
+                }}>
+                    Jump right in—you love water!
+                </button>
+                <button onClick={() => {
+                    handleNext();
+                    updateBreed( ["dachund", "cocker spaniel"]);
+                }}>
+                    Find a way around to avoid getting wet.
+                </button>
+                <button onClick={() => {
+                    handleNext();
+                    updateBreed( ["bulldog", "collie"]);
+                }}>
+                    Wait and see if there's a safer way across.
+                </button>
+                <button onClick={() => {
+                    handleNext();
+                    updateBreed( ["doberman", "german shephard"]);
+                }}>
+                    Help other dogs cross first before attempting yourself.
+                </button>
             </div>
         </div>
         

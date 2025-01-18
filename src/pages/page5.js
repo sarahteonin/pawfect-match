@@ -1,4 +1,5 @@
 import React from 'react';
+import updateBreed from '../breeds';
 
 export default function Page5() {
     const handleNext = () => {
@@ -12,10 +13,30 @@ export default function Page5() {
                 What do you do?
             </h2>
             <div className={"button-container"}>
-                <button onClick={handleNext}>Stay put—you wouldn’t stray far from home.</button>
-                <button onClick={handleNext}>Dash through the gate, ready for an adventure.</button>
-                <button onClick={handleNext}>Sniff cautiously and explore only if it feels safe.</button>
-                <button onClick={handleNext}>Alert your human about the open gate first.</button>
+                <button onClick={() => {
+                    handleNext();
+                    updateBreed( ["bulldog", "collie"]);
+                }}>
+                    Stay put—you wouldn’t stray far from home.
+                </button>
+                <button onClick={() => {
+                    handleNext();
+                    updateBreed( ["pomeranian", "poodle"]);
+                }}>
+                    Dash through the gate, ready for an adventure.
+                </button>
+                <button onClick={() => {
+                    handleNext();
+                    updateBreed( ["beagle", "dachshund"]);
+                }}>
+                    Sniff cautiously and explore only if it feels safe.
+                </button>
+                <button onClick={() => {
+                    handleNext();
+                    updateBreed( ["german shephard", "golden retriever"]);
+                }}>
+                    Alert your human about the open gate first.
+                </button>
             </div>
         </div>
     );

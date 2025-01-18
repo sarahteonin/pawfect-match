@@ -1,4 +1,6 @@
 import React from "react";
+import walk from "./images/page2.png";
+import updateBreed from "../breeds";
 
 export default function Page2() {
   const handleNext = () => {
@@ -11,11 +13,32 @@ export default function Page2() {
         <br/>
         How do you behave on your walk?
       </h2>
+      <img src={walk} style={{ width: '30%', height: 'auto' }}/>
       <div className={"button-container"}>
-        <button onClick={handleNext}>Stick close and walk calmly by their side.</button>
-        <button onClick={handleNext}>Sniff everything in sight—so many smells!</button>
-        <button onClick={handleNext}>Bolt ahead, eager to see what’s around the next corner.</button>
-        <button onClick={handleNext}>Keep an eye on everyone, ensuring the group stays together.</button>
+        <button onClick={() => {
+            handleNext();
+            updateBreed( ["cocker spaniel", "collie"]);
+        }}>
+          Stick close and walk calmly by their side.
+        </button>
+        <button onClick={() => {
+            handleNext();
+            updateBreed( ["beagle", "poodle"]);
+        }}>
+          Sniff everything in sight—so many smells!
+        </button>
+        <button onClick={() => {
+            handleNext();
+            updateBreed( ["pomeranian", "dachshund"]);
+        }}>
+          Bolt ahead, eager to see what’s around the next corner.
+        </button>
+        <button onClick={() => {
+            handleNext();
+            updateBreed( ["german shepherd", "bulldog"]);
+        }}>
+          Keep an eye on everyone, ensuring the group stays together.
+        </button>
       </div>
     </div>
   );

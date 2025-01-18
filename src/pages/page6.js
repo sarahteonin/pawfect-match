@@ -1,5 +1,6 @@
 import React from 'react';
 import "../index.css";
+import updateBreed from '../breeds';
 
 export default function Page6() {
 
@@ -15,10 +16,30 @@ export default function Page6() {
                 What do you focus on?
             </h2>
             <div className={"button-container"}>
-                <button onClick={handleNext}>Follow the sound of running water—it seems peaceful.</button>
-                <button onClick={handleNext}>Chase a squirrel you just spotted.</button>
-                <button onClick={handleNext}>Carefully sniff every tree and track the scent trail.</button>
-                <button onClick={handleNext}>Look for signs of other animals or humans nearby.</button>
+                <button onClick={() => {
+                    handleNext();
+                    updateBreed( ["cocker spaniel", "golden retriever"]);
+                }}>
+                    Follow the sound of running water—it seems peaceful.
+                </button>
+                <button onClick={() => {
+                    handleNext();
+                    updateBreed( ["beagle", "pomeranian"]);
+                }}>
+                    Chase a squirrel you just spotted.
+                </button>
+                <button onClick={() => {
+                    handleNext();
+                    updateBreed( ["dachshund", "poodle"]);
+                }}>
+                    Carefully sniff every tree and track the scent trail.
+                </button>
+                <button onClick={() => {
+                    handleNext();
+                    updateBreed( ["doberman", "german shephard"]);
+                }}>
+                    Look for signs of other animals or humans nearby.
+                </button>
             </div>
         </div>
         

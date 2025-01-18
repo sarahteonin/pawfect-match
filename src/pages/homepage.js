@@ -1,5 +1,6 @@
 import React from 'react';
 import "../index.css";
+import dogs from "./images/homepage.png";
 
 export default function Homepage() {
     const handleStart = () => {
@@ -9,6 +10,7 @@ export default function Homepage() {
     return (
         <div>
             <h1>What dog breed are you?</h1>
+            <img src={dogs} style={{ width: '30%', height: 'auto' }}/>
             <h2>
                 Imagine you’ve woken up as a dog for a day! 🐾 
                 <br/>
