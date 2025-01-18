@@ -14,11 +14,12 @@ export default function Page6() {
                 <br/>
                 What do you focus on?
             </h2>
-
-            <button onClick={handleNext}>Follow the sound of running water—it seems peaceful.</button>
-            <button onClick={handleNext}>Chase a squirrel you just spotted.</button>
-            <button onClick={handleNext}>Carefully sniff every tree and track the scent trail.</button>
-            <button onClick={handleNext}>Look for signs of other animals or humans nearby.</button>
+            <div className={"button-container"}>
+                <button onClick={handleNext}>Follow the sound of running water—it seems peaceful.</button>
+                <button onClick={handleNext}>Chase a squirrel you just spotted.</button>
+                <button onClick={handleNext}>Carefully sniff every tree and track the scent trail.</button>
+                <button onClick={handleNext}>Look for signs of other animals or humans nearby.</button>
+            </div>
         </div>
         
     );
