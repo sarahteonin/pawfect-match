@@ -2,6 +2,7 @@ import React from 'react';
 import "../index.css";
 import updateBreed from '../breeds';
 
+
 export default function Page7() {
     const handleNext = () => {
         window.location.href = "/8";

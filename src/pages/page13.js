@@ -1,5 +1,6 @@
 import React from "react";
 import "../index.css";
+import updateBreed from "../breeds";
 
 export default function Page13() {
   const handleNext = () => {
@@ -14,16 +15,28 @@ export default function Page13() {
         How do you react?
       </h2>
       <div className={"button-container"}>
-        <button onClick={handleNext}>
+        <button onClick={() => {
+            handleNext();
+            updateBreed( ["golden retriever", "collie"]);
+        }}>
           Wag your tail and nuzzle them affectionately.
         </button>
-        <button onClick={handleNext}>
+        <button onClick={() => {
+            handleNext();
+            updateBreed( ["pomeranian", "poodle"]);
+        }}>
           Jump up excitedly and bark happily.
         </button>
-        <button onClick={handleNext}>
+        <button onClick={() => {
+            handleNext();
+            updateBreed( ["doberman", "cocker spaniel"]);
+        }}>
           Sit calmly and let them check if you’re okay.
         </button>
-        <button onClick={handleNext}>
+        <button onClick={() => {
+            handleNext();
+            updateBreed( ["beagle", "dachshund"]);
+        }}>
           Bring them a token from your adventure as a gift.
         </button>
       </div>

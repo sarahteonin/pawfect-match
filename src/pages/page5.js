@@ -1,6 +1,7 @@
 import React from 'react';
 import updateBreed from '../breeds';
 
+
 export default function Page5() {
     const handleNext = () => {
         window.location.href = "/6";
