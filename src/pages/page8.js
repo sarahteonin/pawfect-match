@@ -2,10 +2,13 @@ import React from 'react';
 import stream from './images/page8.png';
 import "../index.css";
 import updateBreed from '../breeds';
+import { useNavigate } from 'react-router-dom';
 
 export default function Page8() {
+    const navigate = useNavigate(); // Initialize navigate function
+
     const handleNext = () => {
-        window.location.href = "/9";
+        navigate('/9'); // Navigate to the "/1" route
     };
 
     return (

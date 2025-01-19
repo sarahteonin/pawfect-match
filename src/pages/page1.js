@@ -1,11 +1,13 @@
 import React from 'react';
 import birdsChirping from "./images/page1.png";
 import updateBreed from "../breeds";
+import { useNavigate } from 'react-router-dom';
 
 export default function Page1() {
-    
+    const navigate = useNavigate(); // Initialize navigate function
+
     const handleNext = () => {
-        window.location.href = "/2";
+        navigate('/2'); // Navigate to the "/1" route
     };
 
     return (

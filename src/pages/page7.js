@@ -2,11 +2,14 @@ import React from 'react';
 import treats from './images/page7.png';
 import "../index.css";
 import updateBreed from '../breeds';
+import { useNavigate } from 'react-router-dom';
 
 
 export default function Page7() {
+    const navigate = useNavigate(); // Initialize navigate function
+
     const handleNext = () => {
-        window.location.href = "/8";
+        navigate('/8'); // Navigate to the "/1" route
     };
 
     return (

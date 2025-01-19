@@ -1,10 +1,13 @@
 import React from "react";
 import "../index.css";
 import updateBreed from "../breeds";
+import { useNavigate } from 'react-router-dom';
 
 export default function Page12() {
+  const navigate = useNavigate(); // Initialize navigate function
+
   const handleNext = () => {
-    window.location.href = "/13";
+      navigate('/13'); // Navigate to the "/1" route
   };
 
   return (
