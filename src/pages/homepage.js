@@ -7,7 +7,7 @@ export default function Homepage() {
     const navigate = useNavigate(); // Initialize navigate function
 
     const handleStart = () => {
-        navigate('/pawfect-match/1'); // Navigate to the "/1" route
+        navigate('/1'); // Navigate to the "/1" route
     };
 
     return (
