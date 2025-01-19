@@ -1,4 +1,5 @@
 import React from "react";
+import sleep from './images/page15.png';
 import "../index.css";
 import updateBreed from "../breeds";
 import { useNavigate } from 'react-router-dom';
@@ -17,6 +18,7 @@ export default function Page15() {
         <br />
         What do you dream about?
       </h2>
+      <img src={sleep} className={"image-container"}/>
       <div className={"button-container"}>
         <button onClick={() => {
             handleNext();

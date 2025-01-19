@@ -1,4 +1,5 @@
 import React from "react";
+import food from './images/page14.png';
 import "../index.css";
 import updateBreed from "../breeds";
 import { useNavigate } from 'react-router-dom';
@@ -17,6 +18,7 @@ export default function Page14() {
         <br />
         What's your reaction?
       </h2>
+      <img src={food} className={"image-container"}/>
       <div className={"button-container"}>
         <button onClick={() => {
             handleNext();

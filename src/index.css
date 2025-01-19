@@ -33,6 +33,10 @@ button {
   border-radius: 16px;
 }
 
+button:hover, button:active {
+  background-color: #e9f0d1;
+}
+
 .button-container {
   display: flex;
   flex-direction: column;
