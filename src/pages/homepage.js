@@ -1,10 +1,13 @@
 import React from 'react';
 import "../index.css";
+import { useNavigate } from 'react-router-dom';
 import dogs from "./images/homepage.png";
 
 export default function Homepage() {
+    const navigate = useNavigate(); // Initialize navigate function
+
     const handleStart = () => {
-        window.location.href = "/1";
+        navigate('/1'); // Navigate to the "/1" route
     };
 
     return (
