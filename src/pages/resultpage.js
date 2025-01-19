@@ -53,7 +53,7 @@ export default function Resultpage() {
     <div>
       <h2>You are...</h2>
       {imagePath ? (
-        <img src={imagePath} alt={`${result} breed`} />
+        <img src={imagePath} className={"result-image-container"} alt={`${result} breed`} />
       ) : (
         <h3>No breeds tracked yet! Hurry and do the quiz to find which dog breed you are!</h3>
       )}
