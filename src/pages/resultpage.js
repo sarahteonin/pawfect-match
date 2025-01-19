@@ -51,7 +51,7 @@ export default function Resultpage() {
 
   return (
     <div>
-      <h2>You are...</h2>
+      <h2 style={{ paddingTop: "30px" }}>You are...</h2>
       {imagePath ? (
         <img src={imagePath} className={"result-image-container"} alt={`${result} breed`} />
       ) : (

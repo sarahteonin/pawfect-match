@@ -13,13 +13,13 @@ export default function Homepage() {
     return (
         <div>
             <h1>What dog breed are you?</h1>
-            <img src={dogs} style={{ width: '30%', height: 'auto' }}/>
+            <img src={dogs} className={"image-container"}/>
             <h2>
                 Imagine you’ve woken up as a dog for a day! 🐾 
                 <br/>
                 Let’s explore your doggy instincts to uncover which breed matches your personality.
             </h2>
-            <button onClick={handleStart}>Start</button>
+            <button onClick={handleStart} style={{ padding: "10px 40px"}}>Start</button>
         </div>
     );
 }
