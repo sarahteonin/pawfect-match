@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/pawfect-match/static/css/main.bfe4326b.css",
-    "main.js": "/pawfect-match/static/js/main.67aa28bb.js",
+    "main.js": "/pawfect-match/static/js/main.cffa354c.js",
     "static/js/488.35d8df9c.chunk.js": "/pawfect-match/static/js/488.35d8df9c.chunk.js",
     "static/media/homepage.png": "/pawfect-match/static/media/homepage.216a409f602a067fa21f.png",
     "static/media/page7.png": "/pawfect-match/static/media/page7.8ffa772f3989f04e1bdb.png",
     "static/media/page4.png": "/pawfect-match/static/media/page4.79f36f90ab0f1ae66e12.png",
+    "static/media/page10.png": "/pawfect-match/static/media/page10.b20fd2ccf75d356b0615.png",
     "static/media/page5.png": "/pawfect-match/static/media/page5.896ac4d625ebe2cb70d6.png",
     "static/media/page15.png": "/pawfect-match/static/media/page15.08b936bbd3b5544f63be.png",
     "static/media/page14.png": "/pawfect-match/static/media/page14.52fc5f73fc10a4737cf8.png",
     "static/media/page6.png": "/pawfect-match/static/media/page6.c92edd0131af05459880.png",
+    "static/media/page13.png": "/pawfect-match/static/media/page13.a50b9052233f4bf0ed99.png",
     "static/media/page1.png": "/pawfect-match/static/media/page1.9a875da7d20456531597.png",
-    "static/media/page10.png": "/pawfect-match/static/media/page10.dd16eb1d1592bfd407b7.png",
     "static/media/page11.png": "/pawfect-match/static/media/page11.c9666e75b2848febc347.png",
-    "static/media/page13.png": "/pawfect-match/static/media/page13.2c04177ab67fcdcbb38c.png",
+    "static/media/page12.png": "/pawfect-match/static/media/page12.17d6ef8160f2ef15e47b.png",
     "static/media/page8.png": "/pawfect-match/static/media/page8.8bf0d6765023f33fcbd7.png",
     "static/media/page3.png": "/pawfect-match/static/media/page3.18766977ee1c206bf608.png",
-    "static/media/page12.png": "/pawfect-match/static/media/page12.78cde4c82dd497d376ff.png",
+    "static/media/page9.png": "/pawfect-match/static/media/page9.18c8c9dbe958dae286ac.png",
     "static/media/page2.png": "/pawfect-match/static/media/page2.16c653a54cd821c46230.png",
-    "static/media/page9.png": "/pawfect-match/static/media/page9.4f06fcdaa4e0ab97bf09.png",
     "static/media/doberman.png": "/pawfect-match/static/media/doberman.de6a3bbe6c6b8e87b1cd.png",
     "static/media/dachshund.png": "/pawfect-match/static/media/dachshund.4c2cfcc97ead02e6e9d5.png",
     "static/media/golden_retriever.png": "/pawfect-match/static/media/golden_retriever.f638f75db75d59e9e2f7.png",
@@ -31,11 +31,11 @@
     "static/media/cocker_spaniel.png": "/pawfect-match/static/media/cocker_spaniel.2cfd6869edc9b160315a.png",
     "index.html": "/pawfect-match/index.html",
     "main.bfe4326b.css.map": "/pawfect-match/static/css/main.bfe4326b.css.map",
-    "main.67aa28bb.js.map": "/pawfect-match/static/js/main.67aa28bb.js.map",
+    "main.cffa354c.js.map": "/pawfect-match/static/js/main.cffa354c.js.map",
     "488.35d8df9c.chunk.js.map": "/pawfect-match/static/js/488.35d8df9c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bfe4326b.css",
-    "static/js/main.67aa28bb.js"
+    "static/js/main.cffa354c.js"
   ]
 }
