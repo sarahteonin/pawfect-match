@@ -37,7 +37,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/pawfect-match">
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/1" element={<Page1 />} />

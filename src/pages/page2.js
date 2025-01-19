@@ -1,10 +1,13 @@
 import React from "react";
 import walk from "./images/page2.png";
 import updateBreed from "../breeds";
+import { useNavigate } from 'react-router-dom';
 
 export default function Page2() {
+  const navigate = useNavigate(); // Initialize navigate function
+
   const handleNext = () => {
-    window.location.href = "/3";
+      navigate('/3'); // Navigate to the "/1" route
   };
 
   return (
