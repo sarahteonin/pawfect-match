@@ -26,6 +26,7 @@ button {
   margin: 5px 2px;
   cursor: pointer;
   border-radius: 16px;
+  border-color: black;
 }
 
 button:hover, button:active {
@@ -42,6 +43,7 @@ button:hover, button:active {
   max-width: 400px;  /* Optionally limit max width */
   margin: 0 auto;  /* Center the button container */
   margin-top: 7px;
+  padding-bottom: 15px;
 }
 
 h2 {
@@ -82,6 +84,7 @@ h2 {
   .button-container {
     width: 70%; /* Button container width smaller than image */
     max-width: 350px;
+    padding-bottom: 15px;
   }
 }
 
@@ -107,5 +110,6 @@ h2 {
   .button-container {
     width: 80%; /* Button container width smaller than image */
     max-width: 300px;
+    padding-bottom: 15px;
   }
 }
