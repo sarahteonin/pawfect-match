@@ -55,7 +55,7 @@ export default function Resultpage() {
       {imagePath ? (
         <img src={imagePath} alt={`${result} breed`} />
       ) : (
-        <p>No image available for {result}</p>
+        <h3>No breeds tracked yet! Hurry and do the quiz to find which dog breed you are!</h3>
       )}
     </div>
   );
