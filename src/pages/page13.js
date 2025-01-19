@@ -1,4 +1,5 @@
 import React from "react";
+import human from './images/page13.png';
 import "../index.css";
 import updateBreed from "../breeds";
 
@@ -14,6 +15,7 @@ export default function Page13() {
         <br />
         How do you react?
       </h2>
+      <img src={human} className={"image-container"}/>
       <div className={"button-container"}>
         <button onClick={() => {
             handleNext();
